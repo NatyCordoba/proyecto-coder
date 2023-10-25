@@ -37,6 +37,11 @@ header {
     header nav {
         padding: 0px ;
     }
+    .imagen-contactar {
+        width: 320px;
+        padding: 0px;
+        margin: 0px;
+    }
 }
 
 header nav {
@@ -99,4 +104,13 @@ footer h6{
 }
 footer p {
     font-weight: 300;
+}
+
+.formulario-contacto{
+    padding: 15% 15%;
+}
+.seccion-de-contacto{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
