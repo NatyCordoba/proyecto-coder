@@ -26,14 +26,17 @@ p{
 
 header img{
     height: 50px;
+    padding: 12px 12px;
 }
 
 header nav{
-    padding: 12px 12px;
+    padding: 8px 8px;
+
 }
 
 header ul{
     list-style-type: none;
+    padding-left: 12px;
     display: flex;
     flex-direction: row;
 }
@@ -67,10 +70,49 @@ header ul li{
         align-items: center;
     }
     header img{
-        height: 25px;
+        padding: 8px;
+        margin-top: 12px;
+        height: 40;
     }
 }
 .atajo-servicios{
     padding: 24px 12px;
     padding-top: 12px;
+}
+
+
+.banner h{
+    font-weight: 800;
+}
+
+.banner p{
+    font-weight: 400;
+}
+
+.banner-comentario{
+    background-color: antiquewhite;
+    background-color: bisque;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+footer{
+    background-color: aquamarine;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    align-content: center;
+}
+footer h{
+    font-weight: 400;
+}
+footer p{
+    font-weight: 300;
 }
