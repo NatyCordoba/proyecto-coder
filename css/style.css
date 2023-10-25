@@ -1,13 +1,14 @@
-*{
+* {
     padding: 0px;
     margin: 0%;
     font-family: 'Raleway', 'Helvetica';
 }
 
-header{
+header {
     height: 50px;
     width: auto;
-    background-color: bisque;
+    background-color: 545c52;
+    color: white;
     padding: 12px;
 
     display: flex;
@@ -16,82 +17,64 @@ header{
     justify-content: space-between;
     z-index: 3000px;
 }
-h1{
-    font-weight: 800;
-}
-
-p{
-    font-weight: 400;
-}
-
-header img{
-    height: 50px;
-    padding: 12px 12px;
-}
-
-header nav{
-    padding: 8px 8px;
-
-}
-
-header ul{
-    list-style-type: none;
-    padding-left: 12px;
-    display: flex;
-    flex-direction: row;
-}
-
-header ul li{
-    padding: 12px;
-    display: flex;
-    align-items: center;
-}
-
-@media (max-width: 375px){
-    header{ 
-        height: 75px;
-        display: flex;
+@media (max-width: 375px) {
+    header {
+        height: auto;
+        width: auto;
+        padding: 0px;
         flex-direction: column;
+        align-items: center;  
+        font-size: 10px;  
+    }
+    header ul {
+        padding: 0px;
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
     }
-
-    header nav{
-        padding: 0px;
-    }
-    header ul{
-        list-style-type: none;
-        display: flex;
-        flex-direction: row;
-    }
-    header ul li{
-        font-size: 10px;
-        display: flex;
-        align-items: center;
-    }
-    header img{
-        padding: 8px;
-        margin-top: 12px;
-        height: 40;
+    header nav {
+        padding: 0px ;
     }
 }
-.atajo-servicios{
+
+header nav {
+    padding: 12px ;
+    color: white;
+    display: flex;
+}
+header ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-top: 12px;
+}
+header ul li {
+    padding: 12px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+header img {
+    padding: 8px;
+    margin-top: 12px;
+    height: 40;
+}
+.atajo-servicios {
     padding: 24px 12px;
     padding-top: 12px;
 }
-
-
-.banner h{
+.banner h {
     font-weight: 800;
 }
-
-.banner p{
+.banner p {
     font-weight: 400;
 }
-
-.banner-comentario{
-    background-color: antiquewhite;
-    background-color: bisque;
+.banner-comentario {
+    background-color: bfedef;
     height: auto;
     width: 100%;
     display: flex;
@@ -100,19 +83,20 @@ header ul li{
     padding-bottom: 24px;
     text-align: center;
 }
-
-footer{
-    background-color: aquamarine;
+footer {
+    background-color: 545c52;
+    color: white;
     width: 100%;
     text-align: center;
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    align-content: center;
+    align-content: space-between;
+
 }
-footer h{
+footer h6{
     font-weight: 400;
 }
-footer p{
+footer p {
     font-weight: 300;
 }
