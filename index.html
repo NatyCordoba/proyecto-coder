@@ -1,63 +1,145 @@
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,300;1,400&family=Raleway:wght@200;400;800&display=swap"
-        rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Inicio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,300;1,400&family=Raleway:wght@200;400;800&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Inicio</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6 col-xl-3">
-                <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                    <div class="container-fluid">
-                      <a class="navbar-brand" href="#">Navbar</a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="./pages/services.html">Servicios</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </nav>
-            </div>
+  <header>
+    <img
+      src="https://static.vecteezy.com/system/resources/thumbnails/023/477/116/small/cute-cartoon-kawaii-cat-sticker-clipart-ai-generated-free-png.png"
+      alt="">
+    <nav>
+      <ul>
+        <li class="menu-item"><a href="">Inicio</a></li>
+        <li class="menu-item"><a href="./pages/nosotros.html">Nosotros</a></li>
+        <li class="menu-item"><a href="./pages/services.html">Servicios</a></li>
+        <li class="menu-item"><a href="./pages/portfolio.html">Portfolio</a></li>
+        <li class="menu-item"><a href="./pages/contacto.html">Contactar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <section>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
         </div>
-    </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.comunicare.es/wp-content/uploads/2020/08/mejores-programas-de-diseno-grafico.jpg"
+              height="300" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://merida.anahuac.mx/hubfs/apreu/Blog/2020%20Blog%20APREU/Portadas/Ingenieria%20en%20Animacion%20en%20que%20puedo%20trabajar.jpg"
+              height="300" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNXqA8GVWBLc9jzYDMoDPzy8rhr-f0MfIECw&usqp=CAU"
+              height="300" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="atajo-servicios">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="https://www.shutterstock.com/image-vector/cute-hugging-cats-sleeping-together-260nw-2265320433.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Diseño Grafico</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="./pages/services.html" class="btn btn-primary">Saber mas</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="https://www.shutterstock.com/image-vector/cute-hugging-cats-sleeping-together-260nw-2265320433.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Diseño 3d</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="./pages/services.html" class="btn btn-primary">Saber mas</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="https://www.shutterstock.com/image-vector/cute-hugging-cats-sleeping-together-260nw-2265320433.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Animacion y video</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="./pages/services.html" class="btn btn-primary">Saber mas</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+
+
+
+  <footer>
+
+  </footer>
 
 
 
 
 
-    <header>
 
 
-    </header>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
 
 </body>
